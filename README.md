@@ -14,21 +14,20 @@
 3. 即时通讯服务器
 
 #### 目录结构
+- 0ENV 运行所需的环境
+- 0demo 该项目涉及的某些技术的代码样例，方便快速学习相关技术的使用
 - APIServer 与数据库交互的服务端程序
 - StaticServer 前端与静态资源服务器
 - WebSocketServer 即时通讯服务器
-- common 公共代码
-- www 静态网站代码，由StaticServer使用
 
 #### 安装教程
->该项目代码可跨平台，但目前仅提供win下的快速使用说明
-
-##### win配置教程
-直接打开NetChatSE.sln即可使用
+>该项目代码可跨平台，但目前仅提供Linux下的环境配置说明
 
 ##### Linux配置教程
-待续
+```
+./LinuxInstall.sh
 
+```
 #### 参与贡献
 
 
